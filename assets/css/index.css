@@ -80,7 +80,7 @@ hr {
   padding: 120px 0px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 360px) {
   .mt-10rem {
     margin-top: 10rem !important;
   }
@@ -100,5 +100,21 @@ hr {
 
   .img-mt-0 {
     margin-top: 0px !important;
+  }
+
+  .w-100-320 {
+    width: 100% !important;
+  }
+
+  .col-320-w-100 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+    padding-left: 15px !important;
+    text-align: center !important;
+    padding-right: 15px !important;
+  }
+
+  .mt-320-12px {
+    margin-top: 12px !important;
   }
 }
