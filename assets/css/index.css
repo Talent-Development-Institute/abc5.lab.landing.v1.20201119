@@ -1,0 +1,92 @@
+.list-style-normal li {
+  padding: 0;
+  margin: 0;
+  margin-left: 22px;
+  list-style: disc !important;
+}
+
+.customize {
+  background-color: #f9a826 !important;
+}
+
+.customize:hover {
+  background-color: #cf8817 !important;
+}
+
+.contact-form {
+  background-image: url("../images/new/undraw_contact_us_15o2.png");
+  background-repeat: no-repeat;
+}
+
+.pic2 {
+  background-image: url("../images/new/undraw_developer_activity_bv83.png") !important;
+}
+
+hr {
+  color: black !important;
+}
+
+.package {
+  background: -moz-linear-gradient(
+    -45deg,
+    rgba(0, 136, 232, 1) 0%,
+    rgba(0, 182, 198, 1) 0%,
+    rgba(0, 136, 232, 1) 100%
+  );
+
+  color: white !important;
+}
+
+.section-hr {
+  border-bottom: 1px solid #eee;
+}
+
+.btnBase {
+  width: 100%;
+  font-size: 13px;
+  letter-spacing: 0.25px;
+  border-radius: 20px;
+  padding: 8px 20px;
+  text-transform: uppercase;
+}
+
+.btn1 {
+  border-color: #00b4c6;
+  background-color: #00b4c6;
+}
+
+.btn1:hover {
+  background-color: #0088e8;
+}
+
+.btn2 {
+  border-color: #f9a826 !important;
+  background-color: #f9a826 !important;
+}
+
+.btn2:hover {
+  background-color: #cf8817;
+}
+
+.w-80 {
+  width: 80% !important;
+}
+
+#packages {
+  padding: 120px 0px;
+}
+
+#benefits {
+  padding: 120px 0px;
+}
+
+@media (max-width: 320px) {
+  .mt-10rem {
+    margin-top: 10rem !important;
+  }
+
+  .logo {
+    font-size: 18px !important;
+    font-weight: 900 !important;
+  }
+}
