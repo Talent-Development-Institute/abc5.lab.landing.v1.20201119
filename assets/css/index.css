@@ -14,8 +14,19 @@
 }
 
 .contact-form {
-  background-image: url("../images/new/undraw_contact_us_15o2.png");
+  background-image: url(../images/new/Frame\ 5.png);
+  /* overflow: hidden; */
+  /* position: relative; */
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  /* background-image: url(../images/banner-bg.png); */
   background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  /* height: 105vh; */
+  /* height: 105vh; */
+  /* margin-top: -10vh; */
 }
 
 .pic2 {
@@ -79,6 +90,21 @@ hr {
 #benefits {
   padding: 120px 0px;
 }
+
+.contact-form textarea {
+  color: #000;
+}
+@media only screen and (device-width: 768px) {
+  /* .contact-form {
+    background-image: url("../images/new/Frame\ 3.png");
+  } */
+}
+
+/* @media (device-width: 768px) {
+  .contact-form {
+    background-image: url("../images/new/Frame\ 3.png");
+  }
+} */
 
 @media (max-width: 360px) {
   .mt-10rem {
