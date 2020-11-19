@@ -85,8 +85,20 @@ hr {
     margin-top: 10rem !important;
   }
 
+  .h1-320 {
+    margin-top: 32px !important;
+  }
+
   .logo {
     font-size: 18px !important;
     font-weight: 900 !important;
+  }
+
+  .h-320-320px {
+    height: 320px !important;
+  }
+
+  .img-mt-0 {
+    margin-top: 0px !important;
   }
 }
