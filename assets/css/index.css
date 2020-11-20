@@ -21,7 +21,7 @@
 }
 
 .price-bg {
-  background-image: url(../images/new/Frame\ 7.png);
+  background-image: url(../images/new/Frame\ 8.png);
   /* background-attachment: fixed; */
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,6 +34,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+}
+
+.faq-br {
+  border-radius: 8px;
 }
 
 .contact-form {
