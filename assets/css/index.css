@@ -16,6 +16,7 @@
 .contact-form {
   background-image: url(../images/new/Frame\ 5.png);
   /* overflow: hidden; */
+  background-attachment: fixed;
   /* position: relative; */
   /* display: flex; */
   align-items: center;
@@ -94,10 +95,17 @@ hr {
 .contact-form textarea {
   color: #000;
 }
+
+@media only screen and (device-width: 1024px) {
+  .contact-form {
+    height: 75vh !important;
+  }
+}
+
 @media only screen and (device-width: 768px) {
-  /* .contact-form {
-    background-image: url("../images/new/Frame\ 3.png");
-  } */
+  .contact-form {
+    height: 70vh !important;
+  }
 }
 
 /* @media (device-width: 768px) {
