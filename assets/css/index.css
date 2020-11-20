@@ -1,3 +1,23 @@
+.form-control::-webkit-input-placeholder {
+  color: #bec6cc;
+}
+.form-control:-moz-placeholder {
+  color: #bec6cc;
+}
+.form-control::-moz-placeholder {
+  color: #bec6cc;
+}
+.form-control::placeholder {
+  color: #bec6cc;
+}
+.form-control:-ms-input-placeholder {
+  color: #bec6cc;
+}
+
+#welcome {
+  background-image: url(../images/new/Frame\ 10.png);
+}
+
 .list-style-normal li {
   padding: 0;
   margin: 0;
@@ -121,6 +141,10 @@ hr {
 
 .contact-form textarea {
   color: #000;
+}
+
+.contact-field {
+  background-color: rgba(250, 250, 250, 0.8);
 }
 
 @media only screen and (device-width: 1024px) {
