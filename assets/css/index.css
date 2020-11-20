@@ -159,6 +159,12 @@ hr {
   }
 }
 
+@media (max-width: 765px) {
+  .welcome-area {
+    margin-bottom: 0px;
+  }
+}
+
 /* @media (device-width: 768px) {
   .contact-form {
     background-image: url("../images/new/Frame\ 3.png");
