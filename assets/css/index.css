@@ -5,6 +5,13 @@
   list-style: disc !important;
 }
 
+.paraBgColorWithPadding {
+  background-color: #f8f1e9;
+  padding: 16px;
+  padding-bottom: 28px;
+  border-radius: 8px;
+}
+
 .customize {
   background-color: #f9a826 !important;
 }
@@ -13,10 +20,26 @@
   background-color: #cf8817 !important;
 }
 
+.price-bg {
+  background-image: url(../images/new/Frame\ 7.png);
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.faq-bg {
+  background-image: url(../images/new/Frame\ 6.png);
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
 .contact-form {
   background-image: url(../images/new/Frame\ 5.png);
   /* overflow: hidden; */
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   /* position: relative; */
   /* display: flex; */
   align-items: center;
@@ -50,7 +73,7 @@ hr {
 }
 
 .section-hr {
-  border-bottom: 1px solid #eee;
+  /* border-bottom: 1px solid #eee; */
 }
 
 .btnBase {
