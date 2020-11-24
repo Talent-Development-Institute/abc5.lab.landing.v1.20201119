@@ -14,6 +14,22 @@
   color: #bec6cc;
 }
 
+.fs-1p5rem {
+  font-size: 1.5rem !important;
+}
+
+.text-black0 {
+  color: #000 !important;
+}
+
+.Condensed {
+  font-family: DIN Condensed !important;
+}
+
+.Condensed2 {
+  /* font-family: Roboto condensed !important; */
+}
+
 #welcome {
   background-image: url(../images/new/Frame\ 10.png);
 }
