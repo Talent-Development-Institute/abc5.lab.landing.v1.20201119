@@ -18,6 +18,10 @@
   font-size: 1.5rem !important;
 }
 
+.padding0 {
+  padding: 0px !important;
+}
+
 .text-black0 {
   color: #000 !important;
 }
