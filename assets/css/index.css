@@ -241,3 +241,15 @@ hr {
     margin-top: 12px !important;
   }
 }
+
+@media (min-width: 1200px) {
+  .container2 {
+    max-width: 95%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container2 {
+    max-width: 95%;
+  }
+}
