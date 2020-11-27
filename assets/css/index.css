@@ -197,6 +197,33 @@ hr {
   }
 }
 
+@media (max-width: 767px) {
+  .btn {
+    width: 60% !important;
+    height: auto !important;
+  }
+
+  .pricing-table .ptable-item {
+    width: 100%;
+  }
+
+  .pricing-table.table-3 .ptable-body::before {
+    border-top: 50px solid #2a293e;
+  }
+
+  .pricing-table.table-3 .ptable-body::after {
+    border-bottom: 50px solid #2a293e;
+  }
+
+  .pricing-table.table-3 .ptable-item.featured-item .ptable-body::before {
+    border-top: 50px solid #f9a826;
+  }
+
+  .pricing-table.table-3 .ptable-item.featured-item .ptable-body::after {
+    border-bottom: 50px solid #f9a826;
+  }
+}
+
 /* @media (device-width: 768px) {
   .contact-form {
     background-image: url("../images/new/Frame\ 3.png");
