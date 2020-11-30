@@ -170,6 +170,27 @@ hr {
   align-self: unset !important;
 }
 
+.xsda-22 {
+  list-style: none;
+  /* list-style-image: url(../images/li/check.png); */
+  padding-left: 0;
+}
+
+.xsda-23 {
+  position: relative;
+  padding-left: 2em;
+}
+
+.xsda-23:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 1em;
+  height: 1em;
+
+  background: url(../images/li/check-solid.svg) no-repeat;
+}
+
 @media only screen and (max-width: 1024px) {
   .price-bg {
     background-image: url(../images/new/Frame\ 8.1.png);
