@@ -80,6 +80,12 @@ p {
   padding: 15px;
 }
 
+@media (min-width: 992px) {
+  .pricing-table.table-3 .ptable-description ul li {
+    min-height: 200px !important;
+  }
+}
+
 @media (max-width: 992px) {
   .pricing-table .ptable-item {
     width: 33.33%;
