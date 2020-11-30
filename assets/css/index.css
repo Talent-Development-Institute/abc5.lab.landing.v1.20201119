@@ -243,6 +243,10 @@ hr {
   .pricing-table.table-3 .ptable-item.featured-item .ptable-body::after {
     border-bottom: 50px solid #f9a826;
   }
+
+  .h1-320 {
+    margin-top: 24px !important;
+  }
 }
 
 /* @media (device-width: 768px) {
@@ -299,6 +303,17 @@ hr {
 @media (min-width: 992px) {
   .container2 {
     max-width: 95%;
+  }
+
+  .ls-1p5 {
+    /* letter-spacing: -1.5px; */
+    line-height: 60px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .ls-1p5 {
+    margin-top: 60px !important;
   }
 }
 
