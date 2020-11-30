@@ -295,7 +295,7 @@ hr {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 360px) {
   .xsda-23 {
     position: relative;
     padding-left: 0em;
