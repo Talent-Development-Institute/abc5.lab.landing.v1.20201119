@@ -26,14 +26,6 @@
   color: #000 !important;
 }
 
-.DIN {
-  font-family: DIN Condensed !important;
-}
-
-.Roboto {
-  font-family: "Roboto Condensed", sans-serif !important;
-}
-
 #welcome {
   background-image: url(../images/new/Frame\ 10.png);
 }
