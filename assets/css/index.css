@@ -294,3 +294,21 @@ hr {
     max-width: 95%;
   }
 }
+
+@media (max-width: 320px) {
+  .xsda-23 {
+    position: relative;
+    padding-left: 0em;
+  }
+
+  .mt-320-12px {
+    margin-top: 0px !important;
+    text-align: left;
+    margin-left: 16px;
+  }
+
+  .left-text-left-ml-16px-320 {
+    text-align: left;
+    margin-left: 16px;
+  }
+}
