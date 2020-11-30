@@ -26,12 +26,12 @@
   color: #000 !important;
 }
 
-.Condensed {
+.DIN {
   font-family: DIN Condensed !important;
 }
 
-.Condensed2 {
-  /* font-family: Roboto condensed !important; */
+.Roboto {
+  font-family: Roboto condensed !important;
 }
 
 #welcome {
@@ -185,8 +185,9 @@ hr {
   content: "";
   position: absolute;
   left: 0;
-  width: 1em;
-  height: 1em;
+  top: 3px;
+  width: 0.8em;
+  height: 0.8em;
 
   background: url(../images/li/check-solid.svg) no-repeat;
 }
